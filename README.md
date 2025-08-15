@@ -34,7 +34,9 @@ A terminal-based interactive tool for managing Claude Desktop's configuration fi
 
 ## Screenshots
 
+### Main Menu
 ```
+📁 Config: /home/username/.claude.json
 ╔═══ 🤖 Claude Config Manager ═══╗
 💡 Use ↑/↓ to navigate, →/Enter to select, ←/ESC to go back
 ════════════════════════════════════════════════════════════
@@ -43,11 +45,12 @@ A terminal-based interactive tool for managing Claude Desktop's configuration fi
 3. Exit
 ```
 
+### Projects Management
 ```
 📁 Config: /home/username/.claude.json
 📂 Projects: /home/username/.claude/projects
 ╔═══ 📚 Projects Management (5 projects, 5 dirs) ═══╗
-💡 PgUp/PgDn: page, ↑/↓: item, →/Enter: select, ←/ESC: back, d/D: delete
+💡 PgUp/PgDn: page, ↑/↓: item, →/Enter: select, ← back, d/D: delete
 ════════════════════════════════════════════════════════════
   📂 Project: my-python-app
   💬 History: 23 messages
@@ -61,6 +64,29 @@ A terminal-based interactive tool for managing Claude Desktop's configuration fi
 ════════════════════════════════════════════════════════════
 🗑️  [ DELETE ALL PROJECTS ]
 ◀️  [ Back to Main Menu ]
+                                          [2/5]  Page 1/1
+```
+
+### Conversation History View
+```
+📂 Project: my-python-app
+📍 Path: /home/user/projects/my-python-app
+💬 Total conversations: 23
+════════════════════════════════════════════════════════════
+💡 PgUp/PgDn: page, ↑/↓: item, ← to go back
+════════════════════════════════════════════════════════════
+  1. What is the capital of France?
+  2. Help me write a Python function to calculate factorial
+  3. [Pasted text] | def factorial(n): if n == 0: return 1 else: return n * factorial(n-1)...
+  4. Can you explain how recursion works?
+  5. Create a simple web server using Flask
+  6. How do I handle errors in Python?
+  7. What's the difference between list and tuple?
+  8. [Pasted text] | import pandas as pd import numpy as np data = pd.DataFrame({...
+  9. Explain async/await in Python
+ 10. Help me optimize this database query
+                                          ▼ MORE
+                                          [1/23]  Page 1/3
 ```
 
 ## License
